@@ -1,0 +1,185 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- ===============================================-->
+<!--    header starts here -->
+<!-- ===============================================-->
+
+<head>
+    <base href="../../">
+    <meta charset="utf-8" />
+    <title>Calculate, Check, & Measure Your Return On Website Traffic | ROWT</title>
+    <meta name="description"
+        content="ROWT or Return On Website Traffic is a business metric that allows you to calculate the financial returns of your website's organic traffic. Check Now!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link href="{% static '/assets/css/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static '/assets/css/goat.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{% static '/assets/media/logos/logo_primary_letter.png' %}" />
+    <script>(function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);
+        fpr("init", {cid:"jfai7otb"}); 
+        fpr("click");
+        </script>
+        <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
+        <script>
+            fpr("referral",{email:"donpislik@gmail.com"})
+            </script>
+</head>
+
+<!-- ===============================================-->
+<!--    header ends here -->
+<!-- ===============================================-->
+<body>
+<div class="d-flex flex-column flex-root">
+    <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
+        <div
+            class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
+            <div class="d-flex flex-column-fluid flex-center">
+                <div class="login-form login-signup">
+
+                    <!-- ===============================================-->
+                    <!--    form starts here -->
+                    <!-- ===============================================-->
+
+                    <form action="/submitForm" class="container" method="POST" id="form" name="form">
+                        {% csrf_token %}
+                        <div class="text-center pb-8"><img alt="ROWT Logo" src="{% static '/assets/media/logos/logo_primary_letter.png' %}"
+                                class="max-h-20px" />
+                        </div>
+                    
+                        <div class="">
+                    
+                            <div class="pb-4 text-center">
+                                <h3 class="font-weight-boldest text-dark font-size-h2 display-4">ROWT
+                                </h3>
+                                <p class="text-muted font-weight-bold font-size-md first" id="firstP">ROWT uses <code>Page Count</code> & <code>ARPU</code> to
+                                    estimate <code>Crawls</code> & <code>Visits</code>.<br />
+                                    Next, the <code>Estimate</code> is then applied to calculate the <mark>ROWT</mark> of a site.
+                                </p>
+                                <p class="text-muted font-weight-bold font-size-md second" id="secondP">Most often, <code>ROWT Estimates</code> are sent to the business email.<br />
+                                    Therefore, please provide yours to <mark>Get Your Estimate</mark> in your inbox.
+                                </p>
+                            </div>
+                    
+                            <div class="row mb-4 first">
+                                <div class="col-md-12">
+                                    <input type="number"
+                                        class="form-control text-center font-weigth-bolder text-dark-50 form-control-solid h-auto p-6 rounded-lg font-size-h6"
+                                        placeholder="Page Count" id="page_count" name="page_count" required />
+                                </div>
+                            </div>
+                    
+                            <div class="row mb-4 first">
+                                <div class="col-md-12">
+                                    <input type="number"
+                                        class="form-control text-center font-weigth-bolder text-dark-50 form-control-solid h-auto p-6 rounded-lg font-size-h6"
+                                        placeholder="Current ARPU" id="current_arpu" name="current_arpu" required />
+                                </div>
+                            </div>
+
+                            <div class="row mb-4 second">
+                                <div class="col-md-12">
+                                    <input type="text"
+                                        class="form-control text-center font-weigth-bolder text-dark-50 form-control-solid h-auto p-6 rounded-lg font-size-h6"
+                                        placeholder="First Name" id="first_name" name="first_name" required />
+                                </div>
+                            </div>
+
+                            <div class="row mb-4 second">
+                                <div class="col-md-12">
+                                    <input type="email"
+                                        class="form-control text-center font-weigth-bolder text-dark-50 form-control-solid h-auto p-6 rounded-lg font-size-h6"
+                                        placeholder="Email Address" id="email_address" name="email_address" required />
+                                </div>
+                            </div>
+                    
+                            <button id="btn-submit" class="btn btn-dark font-weight-boldest font-size-h6 px-8 py-5 btn-block" type="submit">
+                                NEXT
+                            </button>
+                    
+                            <div class="pt-5 text-center">
+                                <span class="text-muted font-weight-bolder font-size-h6"><a id="back_button" href="/">back</a>
+                                    / <a href="https://calculate.rowt.co.uk/" target="_blank">algorithm</a> / <a href="https://calculate.rowt.co.uk/" target="_blank">read</a>
+                            </div>
+                    
+                        </div>
+                    
+                    </form>
+
+                    <!-- ===============================================-->
+                    <!--    form ends here -->
+                    <!-- ===============================================-->
+
+                    <!-- ===============================================-->
+                    <!--    footer starts here -->
+                    <!-- ===============================================-->
+
+                    <div class="login-footer pt-12 text-center">
+                        <div class="container d-flex flex-column flex-md-row justify-content-md-center">
+                            <div class="font-size-md font-weight-bold order-2 order-md-1 py-2 py-md-0">
+                                <p class="text-dark-50">created with 💖 & ☕ to help internet businesses calculate their <b>Return On Website Traffic</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===============================================-->
+                    <!--    footer ends here -->
+                    <!-- ===============================================-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+var divsToHide = document.getElementsByClassName("second"); //divsToHide is an array
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "none"; // depending on what you're doing
+    }
+
+    var page_count = document.getElementById("page_count");
+    var current_arpu = document.getElementById("current_arpu");
+    var first_name = document.getElementById("first_name");
+    var email_address = document.getElementById("email_address");
+    var isFirstComplete = false;
+
+    document.getElementById('back_button').onclick = function(e){
+        e.preventDefault();
+        if(isFirstComplete){
+            for(var i = 0; i < divsToHide.length; i++){
+                divsToHide[i].style.display = "none"; // depending on what you're doing
+            }
+            var firstDivs = document.getElementsByClassName("first");
+            for(var i = 0; i < firstDivs.length; i++){
+                firstDivs[i].style.display = "block";
+            }
+            document.getElementById('btn-submit').innerHTML="NEXT";
+            isFirstComplete=false;
+        }
+    }
+    document.getElementById('btn-submit').onclick = function(e){
+        if(!isFirstComplete){
+            if(page_count.value !=null && page_count.value != "" && current_arpu.value !=null && current_arpu.value != ""){
+            e.preventDefault();
+            isFirstComplete = true;
+            var firstDivs = document.getElementsByClassName("first");
+            for(var i = 0; i < firstDivs.length; i++){
+                firstDivs[i].style.display = "none";
+            }
+            for(var i = 0; i < divsToHide.length; i++){
+                divsToHide[i].style.display = "block"; // depending on what you're doing
+            }
+            document.getElementById('btn-submit').innerHTML="SUBMIT";
+          }
+        }
+        else if(first_name.value !=null && first_name.value != "" && email_address.value !=null && email_address.value != ""){
+            document.form.submit();
+        }
+}
+
+</script>
+</html>
